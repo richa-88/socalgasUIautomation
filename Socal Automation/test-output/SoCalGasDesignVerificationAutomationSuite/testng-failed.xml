@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="methods" name="Failed suite [SoCalGasDesignVerificationAutomationSuite]" guice-stage="DEVELOPMENT" verbose="5">
+  <parameter name="environment" value="socalgasmigration"/>
+  <test thread-count="10" parallel="methods" name="SocalBusinessRebates Page 02 Firefox(failed)" verbose="5">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="socaldesignautomation.SocalBusinessRebates02">
+        <methods>
+          <include name="SmallAndMediumBusinessDesignVerification"/>
+          <include name="RebatesAndIncentivesDesignVerification"/>
+          <include name="TradeProfessionalProgramDesignVerification"/>
+          <include name="NaturalGasRatesExplainedDesignVerification"/>
+          <include name="CommercialDirectInstallProgramDesignVerification"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="EnergyEfficiencyThirdpartyProgramsDesignVerification"/>
+          <include name="EnergySavingTipsAndToolsDesignVerification"/>
+          <include name="BusinessMyAccountDesignVerification"/>
+          <include name="DoBusinessWithUsDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalBusinessRebates02 -->
+    </classes>
+  </test> <!-- SocalBusinessRebates Page 02 Firefox(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalSave Page 03 Chrome(failed)" verbose="5">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="socaldesignautomation.SocalSave03">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="ComplimentaryEnergyEfficiencyStarterKitDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalSave03 -->
+    </classes>
+  </test> <!-- SocalSave Page 03 Chrome(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalSave Page 03 Edge(failed)" verbose="5">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="socaldesignautomation.SocalSave03">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="ComplimentaryEnergyEfficiencyStarterKitDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalSave03 -->
+    </classes>
+  </test> <!-- SocalSave Page 03 Edge(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalSave Page 03 Firefox(failed)" verbose="5">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="socaldesignautomation.SocalSave03">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="ComplimentaryEnergyEfficiencyStarterKitDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalSave03 -->
+    </classes>
+  </test> <!-- SocalSave Page 03 Firefox(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalHomePage Page 06 Chrome(failed)" verbose="5">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="socaldesignautomation.SocalHomePage06">
+        <methods>
+          <include name="StartYourDIYProjectWithSafety"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="SocalgasNews"/>
+          <include name="FinancialSupportForYouAndYourFamily"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalHomePage06 -->
+    </classes>
+  </test> <!-- SocalHomePage Page 06 Chrome(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalHomePage Page 06 Edge(failed)" verbose="5">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="socaldesignautomation.SocalHomePage06">
+        <methods>
+          <include name="OurVisionDesignVerification"/>
+          <include name="CovidSupportResponce"/>
+          <include name="StartYourDIYProjectWithSafety"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="LogintoMyAccounttopayyourbill"/>
+          <include name="BillPaymentOptions"/>
+          <include name="SocalgasNews"/>
+          <include name="FinancialSupportForYouAndYourFamily"/>
+          <include name="UnderstandingYourBill"/>
+          <include name="ServicesDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalHomePage06 -->
+    </classes>
+  </test> <!-- SocalHomePage Page 06 Edge(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalHomePage Page 06 Firefox(failed)" verbose="5">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="socaldesignautomation.SocalHomePage06">
+        <methods>
+          <include name="StartYourDIYProjectWithSafety"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="SocalgasNews"/>
+          <include name="FinancialSupportForYouAndYourFamily"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalHomePage06 -->
+    </classes>
+  </test> <!-- SocalHomePage Page 06 Firefox(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalSearchMyaccount Page 18 Firefox(failed)" verbose="5">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="socaldesignautomation.SocalSearchMyaccount18">
+        <methods>
+          <include name="FilterByLanguageDesignVerification"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalSearchMyaccount18 -->
+    </classes>
+  </test> <!-- SocalSearchMyaccount Page 18 Firefox(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalRebatesandIncentives Page 19 Chrome(failed)" verbose="5">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="socaldesignautomation.SocalRebatesandIncentives19">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="EnergyEfficiencyStarterKitDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalRebatesandIncentives19 -->
+    </classes>
+  </test> <!-- SocalRebatesandIncentives Page 19 Chrome(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalRebatesandIncentives Page 19 Edge(failed)" verbose="5">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="socaldesignautomation.SocalRebatesandIncentives19">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="EnergyEfficiencyStarterKitDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalRebatesandIncentives19 -->
+    </classes>
+  </test> <!-- SocalRebatesandIncentives Page 19 Edge(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalRebatesandIncentives Page 19 Firefox(failed)" verbose="5">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="socaldesignautomation.SocalRebatesandIncentives19">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="EnergyEfficiencyStarterKitDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalRebatesandIncentives19 -->
+    </classes>
+  </test> <!-- SocalRebatesandIncentives Page 19 Firefox(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalSearchApi Page 20 Firefox(failed)" verbose="5">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="socaldesignautomation.SocalSearchApi20">
+        <methods>
+          <include name="FilterByLanguageDesignVerification"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalSearchApi20 -->
+    </classes>
+  </test> <!-- SocalSearchApi Page 20 Firefox(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalPaymentLocations Page 23 Chrome(failed)" verbose="5">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="socaldesignautomation.SocalPaymentLocations23">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="EnterAnAddressDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalPaymentLocations23 -->
+    </classes>
+  </test> <!-- SocalPaymentLocations Page 23 Chrome(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalPaymentLocations Page 23 Edge(failed)" verbose="5">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="socaldesignautomation.SocalPaymentLocations23">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="EnterAnAddressDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalPaymentLocations23 -->
+    </classes>
+  </test> <!-- SocalPaymentLocations Page 23 Edge(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalPaymentLocations Page 23 Firefox(failed)" verbose="5">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="socaldesignautomation.SocalPaymentLocations23">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="EnterAnAddressDesignVerification"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalPaymentLocations23 -->
+    </classes>
+  </test> <!-- SocalPaymentLocations Page 23 Firefox(failed) -->
+</suite> <!-- Failed suite [SoCalGasDesignVerificationAutomationSuite] -->

@@ -1,0 +1,874 @@
+<html>
+<head>
+<title>TestNG:  socalgasdesiningautomation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>socalgasdesiningautomation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>159/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jul 21 12:22:16 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>376 seconds (376157 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='socaldesignautomation.SocalTradepro05.AccessTheTradeProDirectoryDesignVerification()'><b>AccessTheTradeProDirectoryDesignVerification</b><br>Test class: socaldesignautomation.SocalTradepro05</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalTradepro05@35047d03</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPaymentLocations23.AddressOnMapDesignVerification()'><b>AddressOnMapDesignVerification</b><br>Test class: socaldesignautomation.SocalPaymentLocations23</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPaymentLocations23@3e2e18f2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.AdvancedMeterDesignVerification()'><b>AdvancedMeterDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSearchMyaccount18.ApologiesBlockDesignVerification()'><b>ApologiesBlockDesignVerification</b><br>Test class: socaldesignautomation.SocalSearchMyaccount18</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSearchMyaccount18@3c419631</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSearchApi20.ApologiesBlockDesignVerification()'><b>ApologiesBlockDesignVerification</b><br>Test class: socaldesignautomation.SocalSearchApi20</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSearchApi20@61230f6a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.ApplyByMailDesignVerification()'><b>ApplyByMailDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebatesandIncentives19.ApplyForARebateDesignVerification()'><b>ApplyForARebateDesignVerification</b><br>Test class: socaldesignautomation.SocalRebatesandIncentives19</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebatesandIncentives19@418e7838</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.AssistanceProgramsDesignVerification()'><b>AssistanceProgramsDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalAssistancePrograms22.AssistanceProgramsDesignVerification()'><b>AssistanceProgramsDesignVerification</b><br>Test class: socaldesignautomation.SocalAssistancePrograms22</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalAssistancePrograms22@cd3fee8</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.AvailableRebatesDesignVerification()'><b>AvailableRebatesDesignVerification</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebatesandIncentives19.AvailableRebatesDesignVerification()'><b>AvailableRebatesDesignVerification</b><br>Test class: socaldesignautomation.SocalRebatesandIncentives19</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebatesandIncentives19@418e7838</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalMyAccount08.BenefitsOfMyAccount()'><b>BenefitsOfMyAccount</b><br>Test class: socaldesignautomation.SocalMyAccount08</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalMyAccount08@4c9f8c13</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToSave04.BenefitsOfWaystoSaveDesignVerification()'><b>BenefitsOfWaystoSaveDesignVerification</b><br>Test class: socaldesignautomation.SocalWaysToSave04</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToSave04@2473d930</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBillAssistance26.BillAssistanceDesignVerification()'><b>BillAssistanceDesignVerification</b><br>Test class: socaldesignautomation.SocalBillAssistance26</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBillAssistance26@703580bf</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBillInserts12.BillInsertsAndOtherNoticesDesignVerification()'><b>BillInsertsAndOtherNoticesDesignVerification</b><br>Test class: socaldesignautomation.SocalBillInserts12</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBillInserts12@3ba9ad43</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalMyAccount08.BillManagementDesignVerification()'><b>BillManagementDesignVerification</b><br>Test class: socaldesignautomation.SocalMyAccount08</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalMyAccount08@4c9f8c13</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaytoPayYourBill24.BillMatrixDesignVerification()'><b>BillMatrixDesignVerification</b><br>Test class: socaldesignautomation.SocalWaytoPayYourBill24</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaytoPayYourBill24@470f1802</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.BillPaymentOptions()'><b>BillPaymentOptions</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCoronavirus15.BillPaymentOptionsAndServicesDuringCOVIDDesignVerification()'><b>BillPaymentOptionsAndServicesDuringCOVIDDesignVerification</b><br>Test class: socaldesignautomation.SocalCoronavirus15</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCoronavirus15@3d680b5a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBillingandPayment21.BillingandPaymentDesignVerification()'><b>BillingandPaymentDesignVerification</b><br>Test class: socaldesignautomation.SocalBillingandPayment21</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBillingandPayment21@3c130745</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPayBill07.BusinessMyAccountDesignVerification()'><b>BusinessMyAccountDesignVerification</b><br>Test class: socaldesignautomation.SocalPayBill07</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPayBill07@769f71a9</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaytoPayYourBill24.BusinessMyAccountDesignVerification()'><b>BusinessMyAccountDesignVerification</b><br>Test class: socaldesignautomation.SocalWaytoPayYourBill24</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaytoPayYourBill24@470f1802</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebates01.BusinessRebatesDesignVerification()'><b>BusinessRebatesDesignVerification</b><br>Test class: socaldesignautomation.SocalRebates01</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebates01@1d119efb</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.CaliforniaAlternateRatesForEnergyCAREDesignVerification()'><b>CaliforniaAlternateRatesForEnergyCAREDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.CaliforniaAlternateRatesForEnergyCAREDesignVerification()'><b>CaliforniaAlternateRatesForEnergyCAREDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalAssistancePrograms22.CaliforniaAlternateRatesForEnergyDesignVerification()'><b>CaliforniaAlternateRatesForEnergyDesignVerification</b><br>Test class: socaldesignautomation.SocalAssistancePrograms22</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalAssistancePrograms22@cd3fee8</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.CapitationAgenciesDesignVerification()'><b>CapitationAgenciesDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.CareerOpeningsDesignVerification()'><b>CareerOpeningsDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.CareersDesignVerification()'><b>CareersDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCoronavirus15.CommunityNewsletterDesignVerification()'><b>CommunityNewsletterDesignVerification</b><br>Test class: socaldesignautomation.SocalCoronavirus15</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCoronavirus15@3d680b5a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.ComplimentaryEnergyEfficiencyStarterKitDesignVerification()'><b>ComplimentaryEnergyEfficiencyStarterKitDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebatesandIncentives19.ComprehensiveMobileHomeProgramDesignVerification()'><b>ComprehensiveMobileHomeProgramDesignVerification</b><br>Test class: socaldesignautomation.SocalRebatesandIncentives19</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebatesandIncentives19@418e7838</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.ConditionsForParticipationDesignVerification()'><b>ConditionsForParticipationDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalContactUs09.ContactTitle()'><b>ContactTitle</b><br>Test class: socaldesignautomation.SocalContactUs09</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalContactUs09@5ae50ce6</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCoronavirus15.CoronavirusOurSupportAndResponse()'><b>CoronavirusOurSupportAndResponse</b><br>Test class: socaldesignautomation.SocalCoronavirus15</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCoronavirus15@3d680b5a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.CovidSupportResponce()'><b>CovidSupportResponce</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToPay10.EasyWaysToPayWithMyAccount()'><b>EasyWaysToPayWithMyAccount</b><br>Test class: socaldesignautomation.SocalWaysToPay10</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToPay10@6f96c77</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalTradepro05.EducationAndTrainingDesignVerification()'><b>EducationAndTrainingDesignVerification</b><br>Test class: socaldesignautomation.SocalTradepro05</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalTradepro05@35047d03</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.EmployeeBenefitsDesignVerification()'><b>EmployeeBenefitsDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBillInserts12.EndBlkDesignVerification()'><b>EndBlkDesignVerification</b><br>Test class: socaldesignautomation.SocalBillInserts12</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBillInserts12@3ba9ad43</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaytoPayYourBill24.EndParaDesignVerification()'><b>EndParaDesignVerification</b><br>Test class: socaldesignautomation.SocalWaytoPayYourBill24</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaytoPayYourBill24@470f1802</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalAssistancePrograms22.EndParagraphDesignVerification()'><b>EndParagraphDesignVerification</b><br>Test class: socaldesignautomation.SocalAssistancePrograms22</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalAssistancePrograms22@cd3fee8</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebates01.EnergyEfficiencyFinancingDesignVerification()'><b>EnergyEfficiencyFinancingDesignVerification</b><br>Test class: socaldesignautomation.SocalRebates01</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebates01@1d119efb</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebatesandIncentives19.EnergyEfficiencyFinancingDesignVerification()'><b>EnergyEfficiencyFinancingDesignVerification</b><br>Test class: socaldesignautomation.SocalRebatesandIncentives19</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebatesandIncentives19@418e7838</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalTradepro05.EnergyEfficiencyRebatesAndIncentivesDesignVerification()'><b>EnergyEfficiencyRebatesAndIncentivesDesignVerification</b><br>Test class: socaldesignautomation.SocalTradepro05</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalTradepro05@35047d03</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebatesandIncentives19.EnergyEfficiencyStarterKitDesignVerification()'><b>EnergyEfficiencyStarterKitDesignVerification</b><br>Test class: socaldesignautomation.SocalRebatesandIncentives19</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebatesandIncentives19@418e7838</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.EnergySavingTipsAndToolsDesignVerification()'><b>EnergySavingTipsAndToolsDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToSave04.EnergySavingTipsDesignVerification()'><b>EnergySavingTipsDesignVerification</b><br>Test class: socaldesignautomation.SocalWaysToSave04</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToSave04@2473d930</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalEnergySavingsAssistanceProgram25.EnergySavingsAssistanceProgramDesignVerification()'><b>EnergySavingsAssistanceProgramDesignVerification</b><br>Test class: socaldesignautomation.SocalEnergySavingsAssistanceProgram25</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalEnergySavingsAssistanceProgram25@63021689</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToSave04.EnergySavingsMadeEasyDesignVerification()'><b>EnergySavingsMadeEasyDesignVerification</b><br>Test class: socaldesignautomation.SocalWaysToSave04</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToSave04@2473d930</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPaymentLocations23.EnterAnAddressDesignVerification()'><b>EnterAnAddressDesignVerification</b><br>Test class: socaldesignautomation.SocalPaymentLocations23</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPaymentLocations23@3e2e18f2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCoronavirus15.FacilityLimitationsDesignVerification()'><b>FacilityLimitationsDesignVerification</b><br>Test class: socaldesignautomation.SocalCoronavirus15</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCoronavirus15@3d680b5a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHelpCenter11.FeaturedSupportCategoriesDesignVerification()'><b>FeaturedSupportCategoriesDesignVerification</b><br>Test class: socaldesignautomation.SocalHelpCenter11</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHelpCenter11@be64738</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSearchMyaccount18.FilterByLanguageDesignVerification()'><b>FilterByLanguageDesignVerification</b><br>Test class: socaldesignautomation.SocalSearchMyaccount18</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSearchMyaccount18@3c419631</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSearchApi20.FilterByLanguageDesignVerification()'><b>FilterByLanguageDesignVerification</b><br>Test class: socaldesignautomation.SocalSearchApi20</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSearchApi20@61230f6a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.FinancialSupportForYouAndYourFamily()'><b>FinancialSupportForYouAndYourFamily</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebates01.FooterDesignVerification()'><b>FooterDesignVerification</b><br>Test class: socaldesignautomation.SocalRebates01</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebates01@1d119efb</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalContactUs09.ForGasEmergenciesORSafetyIssues()'><b>ForGasEmergenciesORSafetyIssues</b><br>Test class: socaldesignautomation.SocalContactUs09</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalContactUs09@5ae50ce6</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHelpCenter11.FrequentlyAskedQuestionsdesignVerification()'><b>FrequentlyAskedQuestionsdesignVerification</b><br>Test class: socaldesignautomation.SocalHelpCenter11</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHelpCenter11@be64738</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.FurnaceDesignVerification()'><b>FurnaceDesignVerification</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalAssistancePrograms22.GasAssistanceFundDesignVerification()'><b>GasAssistanceFundDesignVerification</b><br>Test class: socaldesignautomation.SocalAssistancePrograms22</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalAssistancePrograms22@cd3fee8</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.GasSuppliersforNoncoreCustomersDesignVerification()'><b>GasSuppliersforNoncoreCustomersDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToSave04.GettingStartedIsEasyDesignVerification()'><b>GettingStartedIsEasyDesignVerification</b><br>Test class: socaldesignautomation.SocalWaysToSave04</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToSave04@2473d930</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.GravityWallFurnaceDesignVerification()'><b>GravityWallFurnaceDesignVerification</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebates01.HeaderDesignVerification()'><b>HeaderDesignVerification</b><br>Test class: socaldesignautomation.SocalRebates01</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebates01@1d119efb</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHelpCenter11.HelpCenterTitleDesignVerification()'><b>HelpCenterTitleDesignVerification</b><br>Test class: socaldesignautomation.SocalHelpCenter11</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHelpCenter11@be64738</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalEnergySavingsAssistanceProgram25.HowThisProgramWorksDesignVerification()'><b>HowThisProgramWorksDesignVerification</b><br>Test class: socaldesignautomation.SocalEnergySavingsAssistanceProgram25</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalEnergySavingsAssistanceProgram25@63021689</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalEnergySavingsAssistanceProgram25.HowToApplyDesignVerification()'><b>HowToApplyDesignVerification</b><br>Test class: socaldesignautomation.SocalEnergySavingsAssistanceProgram25</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalEnergySavingsAssistanceProgram25@63021689</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.ImportantNoticesDesignVerififcation()'><b>ImportantNoticesDesignVerififcation</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalTradepro05.JoinTheTradeProDirectoryDesignVerification()'><b>JoinTheTradeProDirectoryDesignVerification</b><br>Test class: socaldesignautomation.SocalTradepro05</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalTradepro05@35047d03</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBillInserts12.LinkTextSubBlkDesignVerification()'><b>LinkTextSubBlkDesignVerification</b><br>Test class: socaldesignautomation.SocalBillInserts12</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBillInserts12@3ba9ad43</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBillingandPayment21.LinkTextdesignVerification()'><b>LinkTextdesignVerification</b><br>Test class: socaldesignautomation.SocalBillingandPayment21</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBillingandPayment21@3c130745</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBillAssistance26.LinksDesignVerification()'><b>LinksDesignVerification</b><br>Test class: socaldesignautomation.SocalBillAssistance26</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBillAssistance26@703580bf</td></tr>
+<tr>
+<td title='socaldesignautomation.HelpCenterMyAccount27.LinksDesignVerification()'><b>LinksDesignVerification</b><br>Test class: socaldesignautomation.HelpCenterMyAccount27</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.HelpCenterMyAccount27@3e92efc3</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPaymentLocations23.ListedAddresDesignVerification()'><b>ListedAddresDesignVerification</b><br>Test class: socaldesignautomation.SocalPaymentLocations23</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPaymentLocations23@3e2e18f2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPaymentLocations23.LocationFilterDesignVerification()'><b>LocationFilterDesignVerification</b><br>Test class: socaldesignautomation.SocalPaymentLocations23</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPaymentLocations23@3e2e18f2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalMyAccount08.LogInToMyAccountt()'><b>LogInToMyAccountt</b><br>Test class: socaldesignautomation.SocalMyAccount08</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalMyAccount08@4c9f8c13</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPayBill07.LogintoMyAccounttopayYourBillDesignVerification()'><b>LogintoMyAccounttopayYourBillDesignVerification</b><br>Test class: socaldesignautomation.SocalPayBill07</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPayBill07@769f71a9</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.LogintoMyAccounttopayyourbill()'><b>LogintoMyAccounttopayyourbill</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalAssistancePrograms22.LowIncomeHomeEnergyAssistanceDesignVerification()'><b>LowIncomeHomeEnergyAssistanceDesignVerification</b><br>Test class: socaldesignautomation.SocalAssistancePrograms22</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalAssistancePrograms22@cd3fee8</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPayBill07.ManageHigherBillsDesignVerification()'><b>ManageHigherBillsDesignVerification</b><br>Test class: socaldesignautomation.SocalPayBill07</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPayBill07@769f71a9</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.MaximumHouseholdIncomeDesignVerification()'><b>MaximumHouseholdIncomeDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.MilitaryVeteransDesignVerification()'><b>MilitaryVeteransDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCoronavirus15.MultiLanguageBillInfoDesignVerification()'><b>MultiLanguageBillInfoDesignVerification</b><br>Test class: socaldesignautomation.SocalCoronavirus15</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCoronavirus15@3d680b5a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebatesandIncentives19.MultifamilyPropertyRebatesAvailableDesignVerification()'><b>MultifamilyPropertyRebatesAvailableDesignVerification</b><br>Test class: socaldesignautomation.SocalRebatesandIncentives19</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebatesandIncentives19@418e7838</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPayBill07.MyAccountDesignVerfication()'><b>MyAccountDesignVerfication</b><br>Test class: socaldesignautomation.SocalPayBill07</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPayBill07@769f71a9</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaytoPayYourBill24.MyAccountDesignVerification()'><b>MyAccountDesignVerification</b><br>Test class: socaldesignautomation.SocalWaytoPayYourBill24</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaytoPayYourBill24@470f1802</td></tr>
+<tr>
+<td title='socaldesignautomation.HelpCenterMyAccount27.MyAccountDesignVerification()'><b>MyAccountDesignVerification</b><br>Test class: socaldesignautomation.HelpCenterMyAccount27</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.HelpCenterMyAccount27@3e92efc3</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.NaturalGasFireplaceInsertsDesignVerification()'><b>NaturalGasFireplaceInsertsDesignVerification</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.NaturalGasVehiclesDesignVerification()'><b>NaturalGasVehiclesDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPayBill07.NeedMoreTimeToPayDesignVerification()'><b>NeedMoreTimeToPayDesignVerification</b><br>Test class: socaldesignautomation.SocalPayBill07</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPayBill07@769f71a9</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalContactUs09.NewsroomDesignVerification()'><b>NewsroomDesignVerification</b><br>Test class: socaldesignautomation.SocalContactUs09</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalContactUs09@5ae50ce6</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.OpportunitiesForStudentsAndCollegeGradsDesignVerification()'><b>OpportunitiesForStudentsAndCollegeGradsDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.OtherWaysToApplyForRebatesDesignVerififcation()'><b>OtherWaysToApplyForRebatesDesignVerififcation</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalAssistancePrograms22.OtherlanguagesDesignVerification()'><b>OtherlanguagesDesignVerification</b><br>Test class: socaldesignautomation.SocalAssistancePrograms22</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalAssistancePrograms22@cd3fee8</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.OurVisionDesignVerification()'><b>OurVisionDesignVerification</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.ParttimeCustomerServiceRepresentativeDesignVerification()'><b>ParttimeCustomerServiceRepresentativeDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToPay10.PayByCreditOrDebit()'><b>PayByCreditOrDebit</b><br>Test class: socaldesignautomation.SocalWaysToPay10</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToPay10@6f96c77</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToPay10.PayByHomeBanking()'><b>PayByHomeBanking</b><br>Test class: socaldesignautomation.SocalWaysToPay10</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToPay10@6f96c77</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaytoPayYourBill24.PayByPhoneDesignVerificaation()'><b>PayByPhoneDesignVerificaation</b><br>Test class: socaldesignautomation.SocalWaytoPayYourBill24</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaytoPayYourBill24@470f1802</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPayBill07.PayYourBillsDesignVerification()'><b>PayYourBillsDesignVerification</b><br>Test class: socaldesignautomation.SocalPayBill07</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPayBill07@769f71a9</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToPay10.PaymentAccepted()'><b>PaymentAccepted</b><br>Test class: socaldesignautomation.SocalWaysToPay10</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToPay10@6f96c77</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPaymentLocations23.PaymentLocationLegendDesignVerification()'><b>PaymentLocationLegendDesignVerification</b><br>Test class: socaldesignautomation.SocalPaymentLocations23</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPaymentLocations23@3e2e18f2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPaymentLocations23.PaymentLocationsDesignVerification()'><b>PaymentLocationsDesignVerification</b><br>Test class: socaldesignautomation.SocalPaymentLocations23</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPaymentLocations23@3e2e18f2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalScheduleService16.PilotRelightDesignVerification()'><b>PilotRelightDesignVerification</b><br>Test class: socaldesignautomation.SocalScheduleService16</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalScheduleService16@4b5d6a01</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.PublicAssistanceProgramsDesignVerification()'><b>PublicAssistanceProgramsDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.QualifiedBusinessesDesignVerification()'><b>QualifiedBusinessesDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebates01.RebatesAndIncentiveDesignVerification()'><b>RebatesAndIncentiveDesignVerification</b><br>Test class: socaldesignautomation.SocalRebates01</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebates01@1d119efb</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.RebatesAndIncentivesDesignVerifiation()'><b>RebatesAndIncentivesDesignVerifiation</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBusinessRebates02.RebatesAndIncentivesDesignVerification()'><b>RebatesAndIncentivesDesignVerification</b><br>Test class: socaldesignautomation.SocalBusinessRebates02</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBusinessRebates02@659a969b</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebatesandIncentives19.RebatesAndIncentivesDesignVerification()'><b>RebatesAndIncentivesDesignVerification</b><br>Test class: socaldesignautomation.SocalRebatesandIncentives19</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebatesandIncentives19@418e7838</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalTradepro05.ReceiveFullRebateApplicationSupportDesignVerification()'><b>ReceiveFullRebateApplicationSupportDesignVerification</b><br>Test class: socaldesignautomation.SocalTradepro05</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalTradepro05@35047d03</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.RecruitmentEventsDesignVerification()'><b>RecruitmentEventsDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalMyAccount08.RegisterForMyAccount()'><b>RegisterForMyAccount</b><br>Test class: socaldesignautomation.SocalMyAccount08</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalMyAccount08@4c9f8c13</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalMyAccount08.RegisterForMyAccount_01()'><b>RegisterForMyAccount_01</b><br>Test class: socaldesignautomation.SocalMyAccount08</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalMyAccount08@4c9f8c13</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToSave04.RegisterToStartSavingDesignVerification()'><b>RegisterToStartSavingDesignVerification</b><br>Test class: socaldesignautomation.SocalWaysToSave04</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToSave04@2473d930</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.RelatedInformationDesignVerification()'><b>RelatedInformationDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalScheduleService16.ReportANaturalGasLeakDesignVerification()'><b>ReportANaturalGasLeakDesignVerification</b><br>Test class: socaldesignautomation.SocalScheduleService16</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalScheduleService16@4b5d6a01</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebatesandIncentives19.ResidentialDirectInstallProgramDesignVerification()'><b>ResidentialDirectInstallProgramDesignVerification</b><br>Test class: socaldesignautomation.SocalRebatesandIncentives19</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebatesandIncentives19@418e7838</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalAssistancePrograms22.ResidentialDirectInstallProgramDesignVerification()'><b>ResidentialDirectInstallProgramDesignVerification</b><br>Test class: socaldesignautomation.SocalAssistancePrograms22</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalAssistancePrograms22@cd3fee8</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebates01.ResidentialRebatesDesignVerification()'><b>ResidentialRebatesDesignVerification</b><br>Test class: socaldesignautomation.SocalRebates01</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebates01@1d119efb</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.SaveMoneyAndEnergyDesignVerification()'><b>SaveMoneyAndEnergyDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.SaveMoneyAndEnergyDesignVerification()'><b>SaveMoneyAndEnergyDesignVerification</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCoronavirus15.ScamAlertDesignVerification()'><b>ScamAlertDesignVerification</b><br>Test class: socaldesignautomation.SocalCoronavirus15</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCoronavirus15@3d680b5a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalScheduleService16.ScheduleServiceDesignVerification()'><b>ScheduleServiceDesignVerification</b><br>Test class: socaldesignautomation.SocalScheduleService16</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalScheduleService16@4b5d6a01</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSearchMyaccount18.SearchTextDesignVerification()'><b>SearchTextDesignVerification</b><br>Test class: socaldesignautomation.SocalSearchMyaccount18</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSearchMyaccount18@3c419631</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSearchApi20.SearchTextDesignVerification()'><b>SearchTextDesignVerification</b><br>Test class: socaldesignautomation.SocalSearchApi20</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSearchApi20@61230f6a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalEnergySavingsAssistanceProgram25.ServicesAvailableDesignVerification()'><b>ServicesAvailableDesignVerification</b><br>Test class: socaldesignautomation.SocalEnergySavingsAssistanceProgram25</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalEnergySavingsAssistanceProgram25@63021689</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.ServicesDesignVerification()'><b>ServicesDesignVerification</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBusinessRebates02.SmallAndMediumBusinessDesignVerification()'><b>SmallAndMediumBusinessDesignVerification</b><br>Test class: socaldesignautomation.SocalBusinessRebates02</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBusinessRebates02@659a969b</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.SmartThermostatDesignVerification()'><b>SmartThermostatDesignVerification</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.SoCalGasCaresDesignVerification()'><b>SoCalGasCaresDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalRebates01.SoCalGasMarketPlaceDesignVerification()'><b>SoCalGasMarketPlaceDesignVerification</b><br>Test class: socaldesignautomation.SocalRebates01</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalRebates01@1d119efb</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.SoCalGasMarketPlaceDesignVerification()'><b>SoCalGasMarketPlaceDesignVerification</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.SocalgasNews()'><b>SocalgasNews</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalSave03.SolarWaterHeatingDesignVerification()'><b>SolarWaterHeatingDesignVerification</b><br>Test class: socaldesignautomation.SocalSave03</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalSave03@76908cc0</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.StartYourDIYProjectWithSafety()'><b>StartYourDIYProjectWithSafety</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalTradepro05.SubscribeToOurQuarterlyNewsletterDesignVerification()'><b>SubscribeToOurQuarterlyNewsletterDesignVerification</b><br>Test class: socaldesignautomation.SocalTradepro05</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalTradepro05@35047d03</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.TheApplicationProcessDesignVerification()'><b>TheApplicationProcessDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13.TheCaliforniaLifeLineProgramDesignVerification()'><b>TheCaliforniaLifeLineProgramDesignVerification</b><br>Test class: socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13@49d904ec</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalTradepro05.TradeProSpotlightDesignVerification()'><b>TradeProSpotlightDesignVerification</b><br>Test class: socaldesignautomation.SocalTradepro05</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalTradepro05@35047d03</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBusinessRebates02.TradeProfessionalProgramDesignVerification()'><b>TradeProfessionalProgramDesignVerification</b><br>Test class: socaldesignautomation.SocalBusinessRebates02</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBusinessRebates02@659a969b</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalTradepro05.TradeProfessionalProgramDesignVerification()'><b>TradeProfessionalProgramDesignVerification</b><br>Test class: socaldesignautomation.SocalTradepro05</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalTradepro05@35047d03</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalScheduleService16.TransferServiceDesignVerification()'><b>TransferServiceDesignVerification</b><br>Test class: socaldesignautomation.SocalScheduleService16</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalScheduleService16@4b5d6a01</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalHomePage06.UnderstandingYourBill()'><b>UnderstandingYourBill</b><br>Test class: socaldesignautomation.SocalHomePage06</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalHomePage06@49b0b76</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPayBill07.UnderstandingYourBillDesignVerification()'><b>UnderstandingYourBillDesignVerification</b><br>Test class: socaldesignautomation.SocalPayBill07</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPayBill07@769f71a9</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalAssistancePrograms22.UsefulLinksDesignVerification()'><b>UsefulLinksDesignVerification</b><br>Test class: socaldesignautomation.SocalAssistancePrograms22</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalAssistancePrograms22@cd3fee8</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalEnergySavingsAssistanceProgram25.VerifyingYourAuthorizedContractorDesignVerification()'><b>VerifyingYourAuthorizedContractorDesignVerification</b><br>Test class: socaldesignautomation.SocalEnergySavingsAssistanceProgram25</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalEnergySavingsAssistanceProgram25@63021689</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCoronavirus15.ViewCustomerServiceUpdatesVideoInMultipleLanguageDesignVerification()'><b>ViewCustomerServiceUpdatesVideoInMultipleLanguageDesignVerification</b><br>Test class: socaldesignautomation.SocalCoronavirus15</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCoronavirus15@3d680b5a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalNaturalgasApplianceRebates14.WaysToCheckYourRebateStatusDesignVerififcation()'><b>WaysToCheckYourRebateStatusDesignVerififcation</b><br>Test class: socaldesignautomation.SocalNaturalgasApplianceRebates14</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalNaturalgasApplianceRebates14@48e4374</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToPay10.WaysToPay()'><b>WaysToPay</b><br>Test class: socaldesignautomation.SocalWaysToPay10</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToPay10@6f96c77</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalPayBill07.WaysToPayDesignVerification()'><b>WaysToPayDesignVerification</b><br>Test class: socaldesignautomation.SocalPayBill07</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalPayBill07@769f71a9</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaytoPayYourBill24.WaysToPayYourBillDesignVerification()'><b>WaysToPayYourBillDesignVerification</b><br>Test class: socaldesignautomation.SocalWaytoPayYourBill24</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaytoPayYourBill24@470f1802</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalEnergySavingsAssistanceProgram25.WaystoQualifyDesignVerification()'><b>WaystoQualifyDesignVerification</b><br>Test class: socaldesignautomation.SocalEnergySavingsAssistanceProgram25</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalEnergySavingsAssistanceProgram25@63021689</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalWaysToSave04.WaystoSaveEnergySavingToolDesignVerification()'><b>WaystoSaveEnergySavingToolDesignVerification</b><br>Test class: socaldesignautomation.SocalWaysToSave04</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalWaysToSave04@2473d930</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCareers17.WeAreSoCalGasDesignVerification()'><b>WeAreSoCalGasDesignVerification</b><br>Test class: socaldesignautomation.SocalCareers17</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCareers17@4a22f9e2</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalCoronavirus15.WhatToExpectForYourNaturalGasServiceDesignVerification()'><b>WhatToExpectForYourNaturalGasServiceDesignVerification</b><br>Test class: socaldesignautomation.SocalCoronavirus15</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalCoronavirus15@3d680b5a</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalEnergySavingsAssistanceProgram25.WhatifIDontQualifyDesignVerification()'><b>WhatifIDontQualifyDesignVerification</b><br>Test class: socaldesignautomation.SocalEnergySavingsAssistanceProgram25</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalEnergySavingsAssistanceProgram25@63021689</td></tr>
+<tr>
+<td title='socaldesignautomation.SocalBillInserts12.YearSubBlkDesignVerification()'><b>YearSubBlkDesignVerification</b><br>Test class: socaldesignautomation.SocalBillInserts12</td>
+<td></td>
+<td>0</td>
+<td>socaldesignautomation.SocalBillInserts12@3ba9ad43</td></tr>
+</table><p>
+</body>
+</html>

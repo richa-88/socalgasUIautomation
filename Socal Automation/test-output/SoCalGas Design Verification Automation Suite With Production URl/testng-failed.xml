@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="methods" name="Failed suite [SoCalGas Design Verification Automation Suite With Production URl]" guice-stage="DEVELOPMENT" verbose="5">
+  <parameter name="environment" value="production"/>
+  <test thread-count="10" parallel="methods" name="SocalHomePage Page 06 Chrome(failed)" verbose="5">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="socaldesignautomation.SocalHomePage06">
+        <methods>
+          <include name="StartYourDIYProjectWithSafety"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="screenShot"/>
+          <include name="BillPaymentOptions"/>
+          <include name="SocalgasNews"/>
+          <include name="FinancialSupportForYouAndYourFamily"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalHomePage06 -->
+    </classes>
+  </test> <!-- SocalHomePage Page 06 Chrome(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalHomePage Page 06 Edge(failed)" verbose="5">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="socaldesignautomation.SocalHomePage06">
+        <methods>
+          <include name="StartYourDIYProjectWithSafety"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="screenShot"/>
+          <include name="BillPaymentOptions"/>
+          <include name="SocalgasNews"/>
+          <include name="FinancialSupportForYouAndYourFamily"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalHomePage06 -->
+    </classes>
+  </test> <!-- SocalHomePage Page 06 Edge(failed) -->
+  <test thread-count="10" parallel="methods" name="SocalHomePage Page 06 Firefox(failed)" verbose="5">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="socaldesignautomation.SocalHomePage06">
+        <methods>
+          <include name="StartYourDIYProjectWithSafety"/>
+          <include name="setUpTest"/>
+          <include name="terminateBrowser"/>
+          <include name="screenShot"/>
+          <include name="BillPaymentOptions"/>
+          <include name="SocalgasNews"/>
+          <include name="FinancialSupportForYouAndYourFamily"/>
+        </methods>
+      </class> <!-- socaldesignautomation.SocalHomePage06 -->
+    </classes>
+  </test> <!-- SocalHomePage Page 06 Firefox(failed) -->
+</suite> <!-- Failed suite [SoCalGas Design Verification Automation Suite With Production URl] -->

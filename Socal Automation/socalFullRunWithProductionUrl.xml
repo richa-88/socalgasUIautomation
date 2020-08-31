@@ -1,0 +1,508 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SoCalGas Design Verification Automation Suite With Production URl"
+	verbose="5" parallel="methods" thread-count="10">
+	<parameter name="environment" value="production" />
+	<test name="Socal Links Navigation">
+		<classes>
+			<class name="socaldesignautomation.SocalLinksNavigation" />
+		</classes>
+	</test>
+	<test name="SocalRebates Page 01 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalRebates01" />
+		</classes>
+	</test>
+	<test name="SocalRebates Page 01 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalRebates01" />
+		</classes>
+	</test>
+	<test name="SocalRebates Page 01 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalRebates01" />
+		</classes>
+	</test>
+	<test name="SocalBusinessRebates Page 02 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalBusinessRebates02" />
+		</classes>
+	</test>
+	<test name="SocalBusinessRebates Page 02 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalBusinessRebates02" />
+		</classes>
+	</test>
+	<test name="SocalBusinessRebates Page 02 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalBusinessRebates02" />
+		</classes>
+	</test>
+	<test name="SocalSave Page 03 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalSave03" />
+		</classes>
+	</test>
+	<test name="SocalSave Page 03 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalSave03" />
+		</classes>
+	</test>
+	<test name="SocalSave Page 03 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalSave03" />
+		</classes>
+	</test>
+	<test name="SocalWaysToSave Page 04 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaysToSave04" />
+		</classes>
+	</test>
+	<test name="SocalWaysToSave Page 04 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaysToSave04" />
+		</classes>
+	</test>
+	<test name="SocalWaysToSave Page 04 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaysToSave04" />
+		</classes>
+	</test>
+	<test name="SocalTradepro Page 05 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalTradepro05" />
+		</classes>
+	</test>
+	<test name="SocalTradepro Page 05 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalTradepro05" />
+		</classes>
+	</test>
+	<test name="SocalTradepro Page 05 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalTradepro05" />
+		</classes>
+	</test>
+	<test name="SocalHomePage Page 06 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalHomePage06" />
+		</classes>
+	</test>
+	<test name="SocalHomePage Page 06 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalHomePage06" />
+		</classes>
+	</test>
+	<test name="SocalHomePage Page 06 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalHomePage06" />
+		</classes>
+	</test>
+	<test name="SocalPayBill Page 07 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalPayBill07" />
+		</classes>
+	</test>
+	<test name="SocalPayBill Page 07 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalPayBill07" />
+		</classes>
+	</test>
+	<test name="SocalPayBill Page 07 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalPayBill07" />
+		</classes>
+	</test>
+	<test name="SocalMyAccount Page 08 Chrome">
+		<parameter name="browser" value="Chrome" />
+
+		<classes>
+			<class name="socaldesignautomation.SocalMyAccount08" />
+		</classes>
+	</test>
+	<test name="SocalMyAccount Page 08 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalMyAccount08" />
+		</classes>
+	</test>
+	<test name="SocalMyAccount Page 08 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalMyAccount08" />
+		</classes>
+	</test>
+	<test name="SocalContactUs Page 09 Chrome">
+		<parameter name="browser" value="Chrome" />
+
+		<classes>
+			<class name="socaldesignautomation.SocalContactUs09" />
+		</classes>
+	</test>
+	<test name="SocalContactUs Page 09 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalContactUs09" />
+		</classes>
+	</test>
+	<test name="SocalContactUs Page 09 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalContactUs09" />
+		</classes>
+	</test>
+	<test name="SocalWaysToPay Page 10 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaysToPay10" />
+		</classes>
+	</test>
+	<test name="SocalWaysToPay Page 10 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaysToPay10" />
+		</classes>
+	</test>
+	<test name="SocalWaysToPay Page 10 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaysToPay10" />
+		</classes>
+	</test>
+	<test name="SocalHelpCenter Page 11 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalHelpCenter11" />
+		</classes>
+	</test>
+	<test name="SocalHelpCenter Page 11 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalHelpCenter11" />
+		</classes>
+	</test>
+	<test name="SocalHelpCenter11 Page 11 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalHelpCenter11" />
+		</classes>
+	</test>
+	<test name="SocalBillInserts Page 12 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillInserts12" />
+		</classes>
+	</test>
+	<test name="SocalBillInserts Page 12 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillInserts12" />
+		</classes>
+	</test>
+	<test name="SocalBillInserts Page 12 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillInserts12" />
+		</classes>
+	</test>
+	<test name="SocalCaliforniaAlternateRatesForEnergy Page 13 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13" />
+		</classes>
+	</test>
+	<test name="SocalCaliforniaAlternateRatesForEnergy Page 13 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13" />
+		</classes>
+	</test>
+	<test
+		name="SocalCaliforniaAlternateRatesForEnergy Page 13 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalCaliforniaAlternateRatesForEnergy13" />
+		</classes>
+	</test>
+	<test name="SocalNaturalgasApplianceRebates Page 14 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalNaturalgasApplianceRebates14" />
+		</classes>
+	</test>
+	<test name="SocalNaturalgasApplianceRebates Page 14 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalNaturalgasApplianceRebates14" />
+		</classes>
+	</test>
+	<test name="SocalNaturalgasApplianceRebates Page 14 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalNaturalgasApplianceRebates14" />
+		</classes>
+	</test>
+	<test name="SocalCoronavirus Page 15 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalCoronavirus15" />
+		</classes>
+	</test>
+	<test name="SocalCoronavirus Page 15 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalCoronavirus15" />
+		</classes>
+	</test>
+	<test name="SocalCoronavirus Page 15 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalCoronavirus15" />
+		</classes>
+	</test>
+	<test name="SocalScheduleService Page 16 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalScheduleService16" />
+		</classes>
+	</test>
+	<test name="SocalScheduleService Page 16 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalScheduleService16" />
+		</classes>
+	</test>
+	<test name="SocalScheduleService Page 16 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalScheduleService16" />
+		</classes>
+	</test>
+	<test name="SocalCareers Page 17 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalCareers17" />
+		</classes>
+	</test>
+	<test name="SocalCareers Page 17 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalCareers17" />
+		</classes>
+	</test>
+	<test name="SocalCareers Page 17 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalCareers17" />
+		</classes>
+	</test>
+	<test name="SocalSearchMyaccount Page 18 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalSearchMyaccount18" />
+		</classes>
+	</test>
+	<test name="SocalSearchMyaccount Page 18 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalSearchMyaccount18" />
+		</classes>
+	</test>
+	<test name="SocalSearchMyaccount Page 18 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalSearchMyaccount18" />
+		</classes>
+	</test>
+	<test name="SocalRebatesandIncentives Page 19 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalRebatesandIncentives19" />
+		</classes>
+	</test>
+	<test name="SocalRebatesandIncentives Page 19 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalRebatesandIncentives19" />
+		</classes>
+	</test>
+	<test name="SocalRebatesandIncentives Page 19 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalRebatesandIncentives19" />
+		</classes>
+	</test>
+	<test name="SocalSearchApi Page 20 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalSearchApi20" />
+		</classes>
+	</test>
+	<test name="SocalSearchApi Page 20 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalSearchApi20" />
+		</classes>
+	</test>
+	<test name="SocalSearchApi Page 20 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalSearchApi20" />
+		</classes>
+	</test>
+	<test name="SocalBillingandPayment Page 21 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillingandPayment21" />
+		</classes>
+	</test>
+	<test name="SocalBillingandPayment Page 21 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillingandPayment21" />
+		</classes>
+	</test>
+	<test name="SocalBillingandPayment Page 21 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillingandPayment21" />
+		</classes>
+	</test>
+	<test name="SocalAssistancePrograms Page 22 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalAssistancePrograms22" />
+		</classes>
+	</test>
+	<test name="SocalAssistancePrograms Page 22 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalAssistancePrograms22" />
+		</classes>
+	</test>
+	<test name="SocalAssistancePrograms Page 22 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalAssistancePrograms22" />
+		</classes>
+	</test>
+	<test name="SocalPaymentLocations Page 23 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalPaymentLocations23" />
+		</classes>
+	</test>
+	<test name="SocalPaymentLocations Page 23 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalPaymentLocations23" />
+		</classes>
+	</test>
+	<test name="SocalPaymentLocations Page 23 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalPaymentLocations23" />
+		</classes>
+	</test>
+	<test name="SocalWaytoPayYourBill Page 24 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaytoPayYourBill24" />
+		</classes>
+	</test>
+	<test name="SocalWaytoPayYourBill Page 24 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaytoPayYourBill24" />
+		</classes>
+	</test>
+	<test name="SocalWaytoPayYourBill Page 24 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalWaytoPayYourBill24" />
+		</classes>
+	</test>
+	<test name="SocalEnergySavingsAssistanceProgram Page 25 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalEnergySavingsAssistanceProgram25" />
+		</classes>
+	</test>
+	<test name="SocalEnergySavingsAssistanceProgram Page 25 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalEnergySavingsAssistanceProgram25" />
+		</classes>
+	</test>
+	<test name="SocalEnergySavingsAssistanceProgram Page 25 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class
+				name="socaldesignautomation.SocalEnergySavingsAssistanceProgram25" />
+		</classes>
+	</test>
+	<test name="SocalBillAssistance Page 26 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillAssistance26" />
+		</classes>
+	</test>
+	<test name="SocalBillAssistance Page 26 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillAssistance26" />
+		</classes>
+	</test>
+	<test name="SocalBillAssistance Page 26 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.SocalBillAssistance26" />
+		</classes>
+	</test>
+	<test name="HelpCenterMyAccount Page 27 Chrome">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="socaldesignautomation.HelpCenterMyAccount27" />
+		</classes>
+	</test>
+	<test name="HelpCenterMyAccount Page 27 Edge">
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="socaldesignautomation.HelpCenterMyAccount27" />
+		</classes>
+	</test>
+	<test name="HelpCenterMyAccount Page 27 Firefox">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="socaldesignautomation.HelpCenterMyAccount27" />
+		</classes>
+	</test>
+</suite>
